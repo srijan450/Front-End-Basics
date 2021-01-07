@@ -25,74 +25,74 @@ body{
 {
     position: absolute;
     top: -50px;
-    left: 139px;
+    left: 135px;
 
 }
 #po2
 {
     position: absolute;
     top: -32px;
-    right: 70px;
+    right: 67px;
 }
 #po3{
     position: absolute;
-    right: 20px;
-    top: 17px;
+    right: 18px;
+    top: 18px;
 }
 #po4{
     
     position: absolute;
     top: 85px;
-    right: 0px;
+    right: -1px;
 }
 #po5
 {
     position: absolute;
-    bottom: 25px;
-    right: 16px;
+    bottom: 17px;
+    right: 17px;
 }
 #po6{
     
     position: absolute;
-    bottom: -31px;
-    right: 68px;
+    bottom: -33px;
+    right: 67px;
 }
 #po7{
     position: absolute;
     bottom: -50px;
-    left: 139px;
+    left: 135px;
 }
 #po8{
     position: absolute;
-    bottom: -31px;
-    left: 68px;
+    bottom: -32px;
+    left: 67px;
 }
 #po9{
     
     position: absolute;
-    bottom: 25px;
-    left: 16px;
+    bottom: 17px;
+    left: 17px;
 }
 #po10{
     position: absolute;
     top: 85px;
-    left: 0px;
+    left: -1px;
 }
 #po11{
     
     position: absolute;
-    left: 20px;
-    top: 17px;
+    left: 18px;
+    top: 18px;
 }
 #po12{
     position: absolute;
     top: -32px;
-    left: 70px;
+    left: 67px;
 }
 #con{
     position: absolute;
     bottom: 30px;
-    left: 100px;
+    left: 90px;
     font-style: oblique;
     font-weight: bold;
     color: rgb(255, 22, 22);
@@ -101,7 +101,7 @@ body{
     width: 20px;
     position: absolute;
     top: -45px;
-    left: 149px;
+    left: 144px;
     height: 140px;
     width: 0px;
     border-left: 2px solid rgb(255, 0, 0);
@@ -113,7 +113,7 @@ body{
     width: 20px;
     position: absolute;
     top: -25px;
-    left: 148px;
+    left: 143px;
     height: 120px;
     width: 0px;
     border-left: 4px solid white;
@@ -123,7 +123,7 @@ body{
     width: 20px;
     position: absolute;
     top: -5px;
-    left: 147px;
+    left: 142px;
     height: 100px;
     width: 0px;
     border-left: 6px solid white;
@@ -135,7 +135,7 @@ body{
     height: 10px;
     position: absolute;
     top: 90px;
-    left: 145px;
+    left: 140px;
     border-radius: 100%;
 
 }
