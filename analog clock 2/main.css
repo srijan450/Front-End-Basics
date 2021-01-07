@@ -16,7 +16,6 @@ body{
 }
 .num{
     text-align: center;
-    /* border: 1px solid black; */
     border-radius: 100%;
     width: 20px;
     color: wheat;
