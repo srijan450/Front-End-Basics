@@ -12,11 +12,11 @@ body{
     text-align: center;
     position: relative;
     background-color: black;
-    border: 5px solid white;
+    border: 5px solid orange;
 }
 .num{
     text-align: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 100%;
     width: 20px;
     color: wheat;
