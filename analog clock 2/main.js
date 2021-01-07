@@ -10,19 +10,15 @@ function setting(h)
 }
 function clock()
 {
-    // var d=new Date;
-    // var H=setting(d.getHours());
-    // var M=d.getMinutes();
-    // var Ha=(H*30+(.5*M));
-    // var S=d.getSeconds();
-    // var Ma=(M*6+(.1*S));
-    // var MILLI=d.getMilliseconds();
-    // var Sa=S*6+(.006*MILLI);
-    var Sa=330;
-    var Ma=0;
-    var Ha=330;
+    var d=new Date;
+    var H=setting(d.getHours());
+    var M=d.getMinutes();
+    var Ha=(H*30+(.5*M));
+    var S=d.getSeconds();
+    var MILLI=d.getMilliseconds();
+    var Sa=S*6+(.006*MILLI);
     s.setAttribute("style","transform:rotateZ("+Sa+"deg)");
-    m.setAttribute("style","transform:rotateZ("+Ma+"deg)");
+    m.setAttribute("style","transform:rotateZ("+6*M+"deg)");
     h.setAttribute("style","transform:rotateZ("+Ha+"deg)");
 }
 
