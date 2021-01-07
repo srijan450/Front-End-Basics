@@ -1,0 +1,141 @@
+*{
+    margin: 50px auto;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EEEEEE;
+}
+#clock{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    text-align: center;
+    position: relative;
+    background-color: black;
+    border: 5px solid white;
+}
+.num{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 20px;
+    color: wheat;
+}
+#po1
+{
+    position: absolute;
+    top: -50px;
+    left: 139px;
+
+}
+#po2
+{
+    position: absolute;
+    top: -32px;
+    right: 70px;
+}
+#po3{
+    position: absolute;
+    right: 20px;
+    top: 17px;
+}
+#po4{
+    
+    position: absolute;
+    top: 85px;
+    right: 0px;
+}
+#po5
+{
+    position: absolute;
+    bottom: 25px;
+    right: 16px;
+}
+#po6{
+    
+    position: absolute;
+    bottom: -31px;
+    right: 68px;
+}
+#po7{
+    position: absolute;
+    bottom: -50px;
+    left: 139px;
+}
+#po8{
+    position: absolute;
+    bottom: -31px;
+    left: 68px;
+}
+#po9{
+    
+    position: absolute;
+    bottom: 25px;
+    left: 16px;
+}
+#po10{
+    position: absolute;
+    top: 85px;
+    left: 0px;
+}
+#po11{
+    
+    position: absolute;
+    left: 20px;
+    top: 17px;
+}
+#po12{
+    position: absolute;
+    top: -32px;
+    left: 70px;
+}
+#con{
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(255, 22, 22);
+}
+#sec{
+    width: 20px;
+    position: absolute;
+    top: -45px;
+    left: 149px;
+    height: 140px;
+    width: 0px;
+    border-left: 2px solid rgb(255, 0, 0);
+    transform-origin: bottom;
+    transform: rotateZ(360deg);
+}
+#min{
+    
+    width: 20px;
+    position: absolute;
+    top: -25px;
+    left: 148px;
+    height: 120px;
+    width: 0px;
+    border-left: 4px solid white;
+    transform-origin: bottom;
+}
+#hr{
+    width: 20px;
+    position: absolute;
+    top: -5px;
+    left: 147px;
+    height: 100px;
+    width: 0px;
+    border-left: 6px solid white;
+    transform-origin: bottom;
+}
+#center{
+    background-color: rgb(255, 0, 0);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 90px;
+    left: 145px;
+    border-radius: 100%;
+
+}
