@@ -1,0 +1,96 @@
+.container{
+    width: 60%;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-color: #C1E6FF;
+    position: relative;
+}
+.err{
+    position: absolute;
+    left: 700px;
+}
+#name, #date, #ta,#pass,#m{
+    position: absolute;
+    left: 200px;
+    width: 45%;
+}
+#fe{
+    position: absolute;
+    left: 300px;
+}
+#oth{
+    position: absolute;
+    left: 400px;
+}
+#ps{
+    margin-top: 78px; 
+}
+#show{
+    position: absolute;
+    left: 630px;
+    font-size: .8rem;
+    color: blue;
+    cursor: pointer;
+}
+.def{
+    margin: 50px ;
+    
+}
+#submit{
+    margin-left: 390px;
+    background-color: chartreuse;
+    
+}
+#reset{
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    font-size: .8rem;
+    height: 1rem;
+    background-color: crimson;
+}
+@media (max-width: 438px ){
+    *{
+        font-size: 0.7rem;
+    }
+    .container{
+        width: 100%;
+    }
+.def{
+    margin: 10px;
+    
+}
+#name, #date, #ta,#pass,#m{
+    position: absolute;
+    left: 100px;
+    width: 50%;
+}
+#fe{
+    position: absolute;
+    left: 150px;
+}
+#oth{
+    position: absolute;
+    left: 210px;
+}
+#submit{
+    margin-left: 100px;
+}
+.err{
+    position: absolute;
+    left: 285px;
+}
+#show{
+    left: 175px;
+    font-size: .6rem;
+    top: 11.3rem;
+}
+#ps{
+
+    margin-top: 3.6rem;
+}
+#sr{
+    margin-top: 2rem;
+}
+}

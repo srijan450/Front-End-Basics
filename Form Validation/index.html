@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Form Validation</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <p><span class="def">Name</span> <input type="text" name="Name" id="name" \><span class="err"
+                id="NameError"></span></p>
+        <p><span class="def">Gender</span> <span id="m">Male <input type="radio" name="Gender" value="male"></span><span
+                id="fe">Female
+                <input type="radio" name="Gender" value="female" \></span>
+            <span id="oth">Other
+                <input type="radio" name="Gender" value="other" \></span>
+            <span class="err" id="genError"></span>
+        </p>
+
+        <p><span class="def">Age</span> <input type="date" name="date" id="date" \><span class="err"
+                id="dateError"></span></p>
+        <p><span class="def" id="About">About Yourself</span> <textarea type="text" rows="5" cols="50" name="ta"
+                id="ta"></textarea><span class="err" id="txtError"></span></p>
+        <p id="ps"><span class="def">Password</span> <input type="password" name="pass" id="pass" \><span
+                id="show">Show</span><span class="err" id="passError"></span>
+        </p>
+        <p id="sr"><input type="submit" id="submit" /><a href="" id="reset">Reset</a> </p>
+
+    </div>
+
+
+</body>
+
+</html>
