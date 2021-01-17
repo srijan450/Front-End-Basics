@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#header{
+    background: #0E3854;
+    height: 80px;
+}
+#header h1{
+    padding: 10px 0 0 10px;
+    color: #ffffff;
+    text-shadow: -1px 0px #d2f6fc, 0px -1px #d2f6fc;
+}
+#menu{
+    background: darksalmon;
+    height: 30px;
+}
+#menu li {
+    
+    display: inline-block;
+    padding: 5px 20px 0 10px;
+}
+#menu li a{
+    text-decoration: none;
+    color: #0E3854;
+    position: relative;
+    display: block;
+}
+#sidebar{
+    float: left;
+    background-color: #0E3854;
+    width: 8%;
+    height: 100vh;
+}
+#sidebar li {
+    
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+#sidebar li a{
+    text-decoration: none;
+    color: #d2f6fc;
+    position: relative;
+    
+}
+#slider{
+    background: #d2f6fc;
+    height: 350px;
+    width: 92%;
+    border: 1px solid black;
+    float: right;
+}
+#slider img{
+    height: 350px;
+    width: 100%;
+
+}
+#content{
+float: right;
+background: #d2f6fc;
+height: 405px;
+width: 92%;
+padding: 15px 0 0 15px;
+
+}
+#content h2{
+    padding-bottom: 10px;
+    color: #23374D;
+}
+#content p{
+    font-family: 'Times New Roman', Times, serif;
+    color: #23374D;
+}
+#footer{
+    clear: both;
+    background: royalblue;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 5px;
+    color: #ffffff;
+    font-size: .8rem;
+}
+
+@media screen and (min-width: 1201px){
+    *{
+        font-size: 1.5rem;
+    }
+    #header{
+        height: 70px;
+    }
+    #menu{
+        height: 50px;
+    }
+    #menu li{
+        
+        padding: 0 0 0 50px;
+    }
+    #menu li a{
+        
+        font-size: .8rem;
+    }
+    #sidebar{
+        width: 10%;
+        height: 108vh;
+    }
+    #sidebar li a{
+        
+        font-size: .8rem;
+    }
+
+    #slider{
+        width: 90%;
+        height: 350px;
+    }
+    #slider img{
+        height: 350px;
+    }
+    #content{
+        width: 90%;
+        height: 100%;
+        
+    }
+    #content p{
+        font-size: .7rem;
+    }
+    #footer{
+        height: 30px;
+        font-size: .5rem;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px){
+    *{
+        font-size: 1.5rem;
+    }
+    #header{
+        height: 80px;
+    }
+    #menu{
+        height: 60px;
+    }
+    #menu li{
+        
+        padding: 0 0 0 50px;
+    }
+    #menu li a{
+        
+        font-size: 1rem;
+    }
+    #sidebar{
+        width: 12%;
+        height: 140vh;
+    }
+    #sidebar li a{
+        
+        font-size: .8rem;
+    }
+
+    #slider{
+        width: 88%;
+        height: 350px;
+    }
+    #slider img{
+        height: 350px;
+    }
+    #content{
+        width: 88%;
+        height: 100%;
+        
+    }
+    #content p{
+        font-size: .9rem;
+    }
+    #footer{
+        height: 35px;
+        font-size: .7rem;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    *{
+        font-size: 1.5rem;
+    }
+    #header{
+        height: 80px;
+        text-align: center;
+    }
+    #menu{
+        height: 50px;
+    }
+    #menu li{
+        padding: 0 0 0 20px;
+        
+    }
+    #menu li a{
+        
+        font-size: .9rem;
+    }
+    #sidebar{
+        width: 20%;
+        height: 450px;
+    }
+    #sidebar li a{
+        
+        font-size: .9rem;
+    }
+
+    #slider{
+        width: 80%;
+        height: 450px;
+    }
+    #slider img{
+        height: 450px;
+    }
+    #content{
+        width: 100%;
+        height: 100%;
+        
+    }
+    #content p{
+        font-size: 1rem;
+    }
+    #footer{
+        height: 40px;
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 438px){
+    *{
+        font-size: 1rem;
+    }
+    #header{
+        height: 40px;
+        text-align: center;
+    }
+    #menu{
+        height: 25px;
+    }
+    #menu li{
+        padding: 0 0 0 10px;
+    }
+    #menu li a{
+        font-size: .7rem;
+    }
+    #sidebar{
+        width: 20%;
+        height: 350px;
+    }
+    #sidebar li a{
+        
+        font-size: .6rem;
+    }
+
+    #slider{
+        width: 80%;
+    }
+    #content{
+        width: 100%;
+        height: 100%;
+        
+    }
+    #content p{
+        font-size: .8rem;
+    }
+    #footer{
+        height: 20px;
+        font-size: .5rem;
+    }
+}
