@@ -1,11 +1,155 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<title>
-Hello
-</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginner Projects</title>
 </head>
+
 <body>
-<h1>Hello world</h1>
+    <div class="parent">
+        <div class="child">
+            <div class="container">
+                <h1>Basic Practice</h1>
+                <hr />
+                <marquee style="color: #d04c41">I had made these project when I was beginner in front end development
+                </marquee>
+                <div class="card">
+                    <h2>Analog Clock</h2>
+                    <hr />
+                    <p>I have implemented basic <strong>analog clock</strong> for relating HTML, CSS and JavaScript all
+                        together</p>
+                    <a href="https://srijan450.github.io/Front-End-Basics/analog%20clock%202/" target="_blank"
+                        title="Click here to see my implementation for analog clock">Analog
+                        Clock</a>
+                </div>
+                <div class="card">
+                    <h2>Web Layout</h2>
+                    <p>I have implemented basic <strong>web layout</strong> to practice responsive web layout using only
+                        HTML and CSS</p>
+                    <a href="https://srijan450.github.io/Front-End-Basics/web_layout/" target="_blank"
+                        title="Click here to see my implementation for web layout">Web
+                        Layout</a>
+                </div>
+                <div class="card">
+                    <h2>Form Validation</h2>
+                    <p>I have implemented basic <strong>Form Validation</strong> to practice form validation using HTML,
+                        CSS
+                        and JavaScript</p>
+                    <a href="https://srijan450.github.io/Front-End-Basics/Form%20Validation/" target="_blank"
+                        title="Click here to see my implementation for form validation">Form
+                        Validation</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .parent {
+            height: 100vh;
+            width: 100%;
+            background-color: azure;
+            animation: borderAni 5s linear 0ms infinite both;
+            padding: 15px;
+        }
+
+        @keyframes borderAni {
+            0% {
+                background: #d6b1a9;
+            }
+
+            10% {
+                background: #d5cca9;
+            }
+
+            20% {
+                background: #d4e1a9;
+            }
+
+            30% {
+                background: #c5e1a9;
+            }
+
+            40% {
+                background: #9ae2a9;
+            }
+
+            50% {
+                background: #96e2ba;
+            }
+
+            60% {
+                background: #96e1e7;
+            }
+
+            70% {
+                background: #96b1e9;
+            }
+
+            80% {
+                background: #96b1e9;
+            }
+
+            90% {
+                background: #c6a1e8;
+            }
+
+            100% {
+                background: #d3a0e7;
+            }
+        }
+
+        .child {
+            height: 100%;
+            width: 100%;
+            display: grid;
+            place-items: center;
+            background: whitesmoke;
+        }
+
+        .container {
+            width: 75%;
+            margin-top: auto;
+            margin: auto;
+            padding: 20px 0px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .container h1 {
+            text-align: center;
+            font-size: 3rem;
+        }
+
+        .card {
+            padding: 10px 20px;
+            width: 80%;
+            margin: 30px auto;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .card p {
+            margin: 10px 0px;
+        }
+
+        @media only screen and (min-width: 1200px) {
+            .container {
+                width: 75%;
+            }
+        }
+
+        @media only screen and (min-width: 900px) {
+            .container {
+                width: 100%;
+            }
+        }
+    </style>
 </body>
+
 </html>
